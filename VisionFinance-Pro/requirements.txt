@@ -1,12 +1,9 @@
-yfinance
+streamlit>=1.40.0
 pandas
-pandas_ta
-numpy
-scikit-learn
-matplotlib
-streamlit
+yfinance
+altair
 plotly
 feedparser
 textblob
+scikit-learn
 pyarrow
-altair<5
