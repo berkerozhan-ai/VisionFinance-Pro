@@ -16,16 +16,7 @@ import quant_core.data.market_data as md_core
 import quant_core.analysis.portfolio_runner as pr_module
 import quant_core.analysis.scanner as scanner_module
 import importlib
-# --- GİZLEME KODU BAŞLANGICI ---
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-# --- GİZLEME KODU BİTİŞİ ---
+
 # Force Reload to pick up code changes
 importlib.reload(md_core)
 importlib.reload(pr_module)
@@ -809,4 +800,5 @@ with tab5:
 # This acts like a standard trading terminal
 time.sleep(30)
 st.rerun()
+
 
