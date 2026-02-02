@@ -1,0 +1,11 @@
+yfinance
+pandas
+pandas_ta
+numpy
+scikit-learn
+matplotlib
+streamlit
+plotly
+feedparser
+textblob
+pyarrow
